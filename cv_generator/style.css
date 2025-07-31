@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+  }
+  
+  .cv-form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .cv-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cv-form label {
+    font-weight: bold;
+  }
+  
+  .cv-form input[type="text"],
+  .cv-form input[type="email"],
+  .cv-form input[type="file"],
+  .cv-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cv-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cv-form input[type="submit"]:hover {
+    background: #34495e;
+  }
+  
