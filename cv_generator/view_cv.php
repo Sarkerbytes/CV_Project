@@ -122,7 +122,7 @@ $conn->close();
 <div class="action-buttons">
   <a href="form.php?update=true&id=<?php echo $row['id']; ?>" class="update-btn">Update</a>
   <a href="download_cv.php?id=<?php echo $row['id']; ?>" target="_blank" class="download-btn">Download CV</a>
-  <a href="form.php" class="delete-btn">Delete</a>
+  <a href="delete_cv.php?id=<?php echo $row['id']; ?>" class="delete-btn" onclick="return confirm('Are you sure you want to delete this CV?');">Delete</a>
 </div>
 
 </body>
